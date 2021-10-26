@@ -1,7 +1,7 @@
 import openpyxl
 import re
 
-excel_file = openpyxl.load_workbook('Table.xlsx')
+excel_file = openpyxl.load_workbook('Table2.xlsx')
 
 # print(excel_file.sheetnames) # ['TDSheet'] - получение название листа
 employees_sheet = excel_file['TDSheet']
